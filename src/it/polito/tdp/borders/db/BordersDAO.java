@@ -12,7 +12,7 @@ import java.util.List;
 public class BordersDAO {
 	
 	public List<Country> loadAllCountries() {
-		
+		String ciao ="";
 		String sql = 
 				"SELECT ccode,StateAbb,StateNme " +
 				"FROM country " +
